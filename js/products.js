@@ -213,7 +213,7 @@ const products = [
     id: 20,
     name: "Plancha de cabello SN-868",
     category: "Hogar y Belleza",
-    image: "assets/images/productos/hogarybelleza/plancha.jpeg",
+    image: "assets/images/productos/hogarybelleza/planchados.jpeg",
     description:
       "Plancha de cabello, ideal para alisar y dar forma a tu cabello.",
     price: "10",
@@ -284,10 +284,21 @@ const products = [
       "Rimel para pestañas Sensational Lash, ideal para dar volumen y longitud a tus pestañas.",
     price: "5",
     stock: "1 unidad",
-    colors: ["Cafe", "Amarillo"],
+    colors: ["Cafe"],
   },
   {
     id: 27,
+    name: "Rimel para pestañas Go Volume Lash",
+    category: "Hogar y Belleza",
+    image: "assets/images/productos/hogarybelleza/rimelDos.jpg",
+    description:
+      "Rimel para pestañas Go Volume Lash, ideal para dar volumen y longitud a tus pestañas.",
+    price: "5",
+    stock: "1 unidad",
+    colors: ["Amarillo"],
+  },
+  {
+    id: 28,
     name: "Pijama Satine 3 piezas",
     category: "Hogar y Belleza",
     image: "assets/images/productos/hogarybelleza/pijamaSatin.jpg",
@@ -298,7 +309,7 @@ const products = [
     colors: ["Rosa", "Celeste", "Blanco"],
   },
   {
-    id: 28,
+    id: 29,
     name: "Pijama Camiseta 3 piezas",
     category: "Hogar y Belleza",
     image: "assets/images/productos/hogarybelleza/pijamaCamiseta.jpg",
@@ -309,7 +320,7 @@ const products = [
     colors: ["Rosa", "Blanco", "Verde"],
   },
   {
-    id: 29,
+    id: 30,
     name: "Pijama Cereza 3 piezas",
     category: "Hogar y Belleza",
     image: "assets/images/productos/hogarybelleza/pijamaCereza.jpg",
@@ -320,7 +331,7 @@ const products = [
     colors: ["Rosa", "Blanco", "Verde"],
   },
   {
-    id: 30,
+    id: 31,
     name: "Pijama Ligera 2 piezas",
     category: "Hogar y Belleza",
     image: "assets/images/productos/hogarybelleza/pijamaCinco.jpg",
