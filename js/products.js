@@ -293,7 +293,7 @@ const products = [
     image: "assets/images/productos/hogarybelleza/rimelDos.jpg",
     description:
       "Rimel para pestañas Go Volume Lash, ideal para dar volumen y longitud a tus pestañas.",
-    price: "5",
+    price: "4",
     stock: "1 unidad",
     colors: ["Amarillo"],
   },
