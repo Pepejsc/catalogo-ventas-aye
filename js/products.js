@@ -341,4 +341,24 @@ const products = [
     stock: "9 unidades",
     colors: ["Rosa", "Blanco", "Verde"],
   },
+  {
+    id: 32,
+    name: "Adaptador Antena Para Red Wfi Wireless 1200mbps 802.IIN",
+    category: "Accesorios",
+    image: "assets/images/productos/accesorios/antenawifi.webp",
+    description: "Esta Antena Adaptador WiFi USB es la solución ideal para darle Wi-Fi a tu computadora de escritorio (PC) o mejorar la recepción de tu laptop.",
+    price: "5",
+    stock: "1 unidad",
+    colors: ["Negro"],
+  },
+  {
+    id: 33,
+    name: "Perfumes Airbody: Tu Aroma Ideal 100 ml",
+    category: "Hogar y Belleza",
+    image: "assets/images/productos/hogarybelleza/perfume4.jpeg",
+    description: "Colección Fragancias Airbody: Tu Aroma Ideal 100 ml (Varios Modelos)" ,
+    price: "5",
+    stock: "5 unidades",
+    colors: ["Negro", "Rosa", "Morado"],
+  }
 ];
