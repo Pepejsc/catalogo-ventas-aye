@@ -2,15 +2,53 @@ const CONFIG = { storeName: "Mega Virtual", whatsapp: "+593987624912" };
 const products = [
   {
     id: 1,
-    name: "Memoria USB Kingston 8GB",
+    name: "Memorias USB Kingston",
     category: "Cargadores y adaptadores",
-    image: "assets/images/productos/cargadoresyadaptadores/8gb.jpg",
+    image: "assets/images/productos/cargadoresyadaptadores/8gb.jfif",
     description:
-      "Memoria USB Kingston de 8GB, ideal para almacenar y transferir tus archivos de manera rápida y segura.",
+      "Memorias USB Kingston disponibles en diferentes capacidades para almacenar y transportar tus archivos. Selecciona la capacidad que necesitas para consultar su precio y disponibilidad.",
     price: "6",
     stock: "1 unidad",
     colors: ["Gris"],
+    variants: [
+      {
+        id: "usb-8gb",
+        name: "8 GB",
+        image: "assets/images/productos/cargadoresyadaptadores/8gb.jpg",
+        price: "6",
+        stock: "1 unidad",
+      },
+      {
+        id: "usb-16gb",
+        name: "16 GB",
+        image: "assets/images/productos/cargadoresyadaptadores/16gb.jpg",
+        price: "",
+        stock: "",
+      },
+      {
+        id: "usb-32gb",
+        name: "32 GB",
+        image: "assets/images/productos/cargadoresyadaptadores/32.jpg",
+        price: "",
+        stock: "",
+      },
+      {
+        id: "usb-64gb",
+        name: "64 GB",
+        image: "assets/images/productos/cargadoresyadaptadores/64gb.jpg",
+        price: "",
+        stock: "",
+      },
+      {
+        id: "usb-128gb",
+        name: "128 GB",
+        image: "assets/images/productos/cargadoresyadaptadores/128gb.jpg",
+        price: "",
+        stock: "",
+      },
+    ],
   },
+
   {
     id: 2,
     name: "Cable HDMI",
@@ -30,7 +68,7 @@ const products = [
     description:
       "Audífonos AKG Tipo C, diseñados para ofrecer una experiencia de sonido envolvente y de alta calidad.",
     price: "3",
-    stock: "3 unidades",
+    stock: "15 unidades",
     colors: ["Negro"],
   },
   {
@@ -40,8 +78,8 @@ const products = [
     image: "assets/images/productos/audio/AKGJACK.webp",
     description:
       "Cable de audio jack 3.5mm para audífonos AKG, ideal para conexión con dispositivos compatibles.",
-    price: "3",
-    stock: "8 unidades",
+    price: "2,50",
+    stock: "7 unidades",
     colors: ["Negro"],
   },
   {
@@ -52,7 +90,7 @@ const products = [
     description:
       "Este práctico cable 3 en 1 cuenta con diferentes conectores para que puedas cargar distintos dispositivos de forma cómoda y sencilla.",
     price: "3",
-    stock: "9 unidades",
+    stock: "16 unidades",
     colors: ["Negro"],
   },
   {
@@ -85,7 +123,7 @@ const products = [
     description:
       "Cargador 4 en 1, ideal para cargar múltiples dispositivos al mismo tiempo con diferentes tipos de conectores.",
     price: "3",
-    stock: "11 unidades",
+    stock: "9 unidades",
     colors: ["Morado", "Gris", "Negro", "Verde"],
   },
   {
@@ -96,7 +134,7 @@ const products = [
     description:
       "Adaptador dos en uno Tipo C, ideal para conectar dispositivos con diferentes tipos de puertos y disfrutar de una mayor versatilidad.",
     price: "4",
-    stock: "10 unidades",
+    stock: "9 unidades",
     colors: ["Negro", "Gris", "Rosa", "Rojo", "Dorado"],
   },
   {
@@ -107,7 +145,7 @@ const products = [
     description:
       "Adaptador dos en uno Tipo C, ideal para conectar dispositivos con diferentes tipos de puertos y disfrutar de una mayor versatilidad.",
     price: "4",
-    stock: "12 unidades",
+    stock: "7 unidades",
     colors: ["Negro", "Gris", "Rosa", "Rojo", "Dorado"],
   },
   {
@@ -118,29 +156,29 @@ const products = [
     description:
       "Combo de teclado y mouse AOAS A-1019, ideal para mejorar tu experiencia de trabajo o juego con un set completo y funcional.",
     price: "15",
-    stock: "2 unidades",
+    stock: "1 unidades",
     colors: ["Gris"],
   },
   {
     id: 12,
-    name: "Soportes para laptop",
+    name: "Soportes para laptop P1",
     category: "Accesorios",
-    image: "assets/images/productos/accesorios/soporte1.jpeg",
+    image: "assets/images/productos/accesorios/soporte2.jfif",
     description:
       "Soportes para laptop, ideal para mantener tu dispositivo en posición cómoda mientras trabajas.",
-    price: "3",
-    stock: "11 unidades",
+    price: "4",
+    stock: "51 unidades",
     colors: ["Negro", "Blanco", "Rosa"],
   },
   {
     id: 13,
-    name: "Soportes para laptop",
+    name: "Soportes para laptop Three Color",
     category: "Accesorios",
-    image: "assets/images/productos/accesorios/soporte4.jpg",
+    image: "assets/images/productos/accesorios/soporte1.jfif",
     description:
       "Soportes para laptop, ideal para mantener tu dispositivo en posición cómoda mientras trabajas.",
     price: "3",
-    stock: "11 unidades",
+    stock: "57 unidades",
     colors: ["Negro"],
   },
   {
@@ -151,7 +189,7 @@ const products = [
     description:
       "Retrovisor Dash Cam Full HD, ideal para tener una visión completa de tu entorno mientras conduces.",
     price: "15",
-    stock: "3 unidades",
+    stock: "1 unidades",
     colors: ["Negro"],
   },
   {
@@ -261,7 +299,7 @@ const products = [
     description:
       "Mini ventilador de mano, ideal para mantenerse fresco en días calurosos.",
     price: "4",
-    stock: "4 unidades",
+    stock: "1 unidad",
     colors: ["Rosa", "Verde", "Naranja", "Amarillo"],
   },
   {
@@ -272,7 +310,7 @@ const products = [
     description:
       "Splash Air Body Mist, ideal para mantener tu cuerpo fresco y cómodo.",
     price: "5",
-    stock: "24 unidades",
+    stock: "23 unidades",
     colors: ["Gris", "Rosa", "Azul", "Verde", "Amarillo"],
   },
   {
@@ -346,9 +384,10 @@ const products = [
     name: "Adaptador Antena Para Red Wfi Wireless 1200mbps 802.IIN",
     category: "Accesorios",
     image: "assets/images/productos/accesorios/antenawifi.webp",
-    description: "Esta Antena Adaptador WiFi USB es la solución ideal para darle Wi-Fi a tu computadora de escritorio (PC) o mejorar la recepción de tu laptop.",
-    price: "5",
-    stock: "1 unidad",
+    description:
+      "Esta Antena Adaptador WiFi USB es la solución ideal para darle Wi-Fi a tu computadora de escritorio (PC) o mejorar la recepción de tu laptop.",
+    price: "6",
+    stock: "11 unidades",
     colors: ["Negro"],
   },
   {
@@ -356,9 +395,10 @@ const products = [
     name: "Perfumes Airbody: Tu Aroma Ideal 100 ml",
     category: "Hogar y Belleza",
     image: "assets/images/productos/hogarybelleza/perfume4.jpeg",
-    description: "Colección Fragancias Airbody: Tu Aroma Ideal 100 ml (Varios Modelos)" ,
+    description:
+      "Colección Fragancias Airbody: Tu Aroma Ideal 100 ml (Varios Modelos)",
     price: "5",
     stock: "5 unidades",
     colors: ["Negro", "Rosa", "Morado"],
-  }
+  },
 ];
