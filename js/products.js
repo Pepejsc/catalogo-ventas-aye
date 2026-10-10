@@ -14,37 +14,37 @@ const products = [
       {
         id: "usb-8gb",
         name: "8 GB",
-        image: "assets/images/productos/cargadoresyadaptadores/8gb.jpg",
-        price: "6",
+        image: "assets/images/productos/cargadoresyadaptadores/8gb.jfif",
+        price: "6,50",
         stock: "1 unidad",
       },
       {
         id: "usb-16gb",
         name: "16 GB",
-        image: "assets/images/productos/cargadoresyadaptadores/16gb.jpg",
-        price: "",
-        stock: "",
+        image: "assets/images/productos/cargadoresyadaptadores/16gb.jfif",
+        price: "8,50",
+        stock: "2 unidades",
       },
       {
         id: "usb-32gb",
         name: "32 GB",
-        image: "assets/images/productos/cargadoresyadaptadores/32.jpg",
-        price: "",
-        stock: "",
+        image: "assets/images/productos/cargadoresyadaptadores/32gb.jfif",
+        price: "9,50",
+        stock: "2 unidades",
       },
       {
         id: "usb-64gb",
         name: "64 GB",
-        image: "assets/images/productos/cargadoresyadaptadores/64gb.jpg",
-        price: "",
-        stock: "",
+        image: "assets/images/productos/cargadoresyadaptadores/64gb.jfif",
+        price: "12,50",
+        stock: "2 unidades",
       },
       {
         id: "usb-128gb",
         name: "128 GB",
-        image: "assets/images/productos/cargadoresyadaptadores/128gb.jpg",
-        price: "",
-        stock: "",
+        image: "assets/images/productos/cargadoresyadaptadores/128gb.jfif",
+        price: "16,50",
+        stock: "3 unidades",
       },
     ],
   },
@@ -59,6 +59,29 @@ const products = [
     price: "3,50",
     stock: "29 unidades",
     colors: ["Negro", "Rojo"],
+    variants: [
+      {
+        id: "cable-3m-plastico",
+        name: "Cable 3m Plástico",
+        image: "assets/images/productos/cargadoresyadaptadores/cable3mp.jpg",
+        price: "3,50",
+        stock: "5 unidades",
+      },
+      {
+        id: "cable-3m-malla",
+        name: "Cable 3m Malla reforzada",
+        image: "assets/images/productos/cargadoresyadaptadores/cable3m.webp",
+        price: "4",
+        stock: "11 unidades",
+      },
+      {
+        id: "cable-5m-malla",
+        name: "Cable 5m Malla reforzada",
+        image: "assets/images/productos/cargadoresyadaptadores/cable5.jpg",
+        price: "5",
+        stock: "14 unidades",
+      },
+    ],
   },
   {
     id: 3,
@@ -101,7 +124,7 @@ const products = [
     description:
       "Cable de carga rápida 8A, ideal para cargar dispositivos compatible con tecnología de carga super rápida.",
     price: "2",
-    stock: "12 unidades",
+    stock: "11 unidades",
     colors: ["Negro"],
   },
   {
@@ -114,17 +137,66 @@ const products = [
     price: "2",
     stock: "12 unidades",
     colors: ["Azul", "Amarillo", "Verde", "Rosado", "Blanco"],
+    variants: [
+      {
+        id: "cable-c-a-c-azul",
+        name: "Azul",
+        image: "assets/images/productos/cargadoresyadaptadores/cabletipocCeleste.avif",
+      },
+      {
+        id: "cable-c-a-c-amarillo",
+        name: "Amarillo",
+        image: "assets/images/productos/cargadoresyadaptadores/cabletipocAmarillo.jfif",
+      },
+      {
+        id: "cable-c-a-c-verde",
+        name: "Verde",
+        image: "assets/images/productos/cargadoresyadaptadores/cabletipocVerde.avif",
+      },
+      {
+        id: "cable-c-a-c-rosado",
+        name: "Rosado",
+        image: "assets/images/productos/cargadoresyadaptadores/cabletipocRosado.avif",
+      },
+      {
+        id: "cable-c-a-c-blanco",
+        name: "Blanco",
+        image: "assets/images/productos/cargadoresyadaptadores/cabletipocBlanco.webp",
+      }
+    ]
   },
   {
     id: 8,
-    name: "Cargador 4 en 1",
+    name: "Cable 4 en 1",
     category: "Cargadores y adaptadores",
     image: "assets/images/productos/cargadoresyadaptadores/cable4en1.jpg",
     description:
-      "Cargador 4 en 1, ideal para cargar múltiples dispositivos al mismo tiempo con diferentes tipos de conectores.",
+      "Cable 4 en 1, ideal para cargar múltiples dispositivos al mismo tiempo con diferentes tipos de conectores.",
     price: "3",
     stock: "9 unidades",
     colors: ["Morado", "Gris", "Negro", "Verde"],
+    variants: [
+      {
+        id: "cable-4en1-morado",
+        name: "Morado",
+        image: "assets/images/productos/cargadoresyadaptadores/cable4en1morado.jfif",
+      },
+      {
+        id: "cable-4en1-gris",
+        name: "Gris",
+        image: "assets/images/productos/cargadoresyadaptadores/cable4en1gris.jfif",
+      },
+      {
+        id: "cable-4en1-negro",
+        name: "Negro",
+        image: "assets/images/productos/cargadoresyadaptadores/cable4en1negro.jfif",
+      },
+      {
+        id: "cable-4en1-verde",
+        name: "Verde",
+        image: "assets/images/productos/cargadoresyadaptadores/cable4en1verde.jfif",
+      }
+    ]
   },
   {
     id: 9,
@@ -136,17 +208,66 @@ const products = [
     price: "4",
     stock: "9 unidades",
     colors: ["Negro", "Gris", "Rosa", "Rojo", "Dorado"],
+    variants: [
+      {
+        id: "adaptador-2en1-c-modelo1-negro",
+        name: "Negro",
+        image: "assets/images/productos/cargadoresyadaptadores/adaptadorUnoNegro.jfif",
+      },
+      {
+        id: "adaptador-2en1-c-modelo1-gris",
+        name: "Gris",
+        image: "assets/images/productos/cargadoresyadaptadores/adaptadorUnoGris.jfif",
+      },
+      {
+        id: "adaptador-2en1-c-modelo1-rosa",
+        name: "Rosa",
+        image: "assets/images/productos/cargadoresyadaptadores/adaptadorUnoRosado.jfif",
+      },
+      {
+        id: "adaptador-2en1-c-modelo1-rojo",
+        name: "Rojo",
+        image: "assets/images/productos/cargadoresyadaptadores/adaptadorUnoRojo.jfif",
+      },
+      {
+        id: "adaptador-2en1-c-modelo1-dorado",
+        name: "Dorado",
+        image: "assets/images/productos/cargadoresyadaptadores/adaptadorUnoDorado.jfif",
+      }
+    ]
   },
   {
     id: 10,
     name: "Adaptador dos en uno Tipo C - modelo 2",
     category: "Cargadores y adaptadores",
-    image: "assets/images/productos/cargadoresyadaptadores/adaptadordos.jpg",
+    image: "assets/images/productos/cargadoresyadaptadores/adaptadorDos.jfif",
     description:
       "Adaptador dos en uno Tipo C, ideal para conectar dispositivos con diferentes tipos de puertos y disfrutar de una mayor versatilidad.",
     price: "4",
     stock: "7 unidades",
     colors: ["Negro", "Gris", "Rosa", "Rojo", "Dorado"],
+    variants: [
+      {
+        id: "adaptador-2en1-c-modelo2-negro",
+        name: "Negro",
+        image: "assets/images/productos/cargadoresyadaptadores/adaptadorDosNegro.jfif",
+      },
+      {
+        id: "adaptador-2en1-c-modelo2-gris",
+        name: "Gris",
+        image: "assets/images/productos/cargadoresyadaptadores/adaptadorDosGris.jfif",
+      },
+      {
+        id: "adaptador-2en1-c-modelo2-rosa",
+        name: "Rosa",
+        image: "assets/images/productos/cargadoresyadaptadores/adaptadorDosRosado.jfif",
+      },
+      {
+        id: "adaptador-2en1-c-modelo2-dorado",
+        name: "Dorado",
+        image: "assets/images/productos/cargadoresyadaptadores/adaptadorDosDorado.jfif",
+      }
+    ]
   },
   {
     id: 11,
@@ -156,30 +277,76 @@ const products = [
     description:
       "Combo de teclado y mouse AOAS A-1019, ideal para mejorar tu experiencia de trabajo o juego con un set completo y funcional.",
     price: "15",
-    stock: "1 unidades",
+    stock: "1 unidad",
     colors: ["Gris"],
   },
   {
     id: 12,
     name: "Soportes para laptop P1",
     category: "Accesorios",
-    image: "assets/images/productos/accesorios/soporte2.jfif",
+    image: "assets/images/productos/accesorios/Base-Plastico-Laptop-Portada.jpg",
     description:
       "Soportes para laptop, ideal para mantener tu dispositivo en posición cómoda mientras trabajas.",
     price: "4",
     stock: "51 unidades",
     colors: ["Negro", "Blanco", "Rosa"],
+    variants: [
+      {
+        id: "soporte-p1-negro",
+        name: "Negro",
+        image: "assets/images/productos/accesorios/soporteNegroP1.jfif",
+        price: "4",
+        stock: "17 unidades",
+      },
+      {
+        id: "soporte-p1-blanco",
+        name: "Blanco",
+        image: "assets/images/productos/accesorios/soporteBlancoP1.jfif",
+        price: "4",
+        stock: "17 unidades",
+      },
+      {
+        id: "soporte-p1-rosa",
+        name: "Rosado",
+        image: "assets/images/productos/accesorios/soporteRosadoP1.jfif",
+        price: "4",
+        stock: "17 unidades",
+      }
+    ]
   },
   {
     id: 13,
     name: "Soportes para laptop Three Color",
     category: "Accesorios",
-    image: "assets/images/productos/accesorios/soporte1.jfif",
+    image: "assets/images/productos/accesorios/Soporte-Laptop-Portada.jfif",
     description:
       "Soportes para laptop, ideal para mantener tu dispositivo en posición cómoda mientras trabajas.",
     price: "3",
     stock: "57 unidades",
     colors: ["Negro"],
+    variants: [
+      {
+        id: "soporte-three-color-negro",
+        name: "Negro",
+        image: "assets/images/productos/accesorios/soporteNegroTc.jfif",
+        price: "3",
+        stock: "19 unidades",
+      },
+      {
+        id: "soporte-three-color-blanco",
+        name: "Blanco",
+        image: "assets/images/productos/accesorios/soporteBlancoTc.jfif",
+        price: "3",
+        stock: "19 unidades",
+      },
+      {
+        id: "soporte-three-color-rosa",
+        name: "Rosado",
+        image: "assets/images/productos/accesorios/soporteRosadoTc.jfif",
+        price: "3",
+        stock: "19 unidades",
+      }
+    ]
   },
   {
     id: 14,
@@ -189,7 +356,7 @@ const products = [
     description:
       "Retrovisor Dash Cam Full HD, ideal para tener una visión completa de tu entorno mientras conduces.",
     price: "15",
-    stock: "1 unidades",
+    stock: "1 unidad",
     colors: ["Negro"],
   },
   {
@@ -210,9 +377,25 @@ const products = [
     image: "assets/images/productos/hogarybelleza/doypack.jpg",
     description:
       "Fundas para coctel, ideal para proteger tu bebida mientras disfrutas de tu evento.",
-    price: "13,50",
-    stock: "50 unidades",
+    price: "20",
+    stock: "100 unidades",
     colors: ["Blanco"],
+    variants: [
+      {
+        id: "fundas-doypacks-coctel-blanco-500ml",
+        name: "Blanco",
+        image: "assets/images/productos/hogarybelleza/doypackUno.jfif",
+        price: "21",
+        stock: "100 unidades",
+      },
+      {
+        id: "fundas-doypacks-coctel-blanco-300ml",
+        name: "Blanco",
+        image: "assets/images/productos/hogarybelleza/doypackDos.jfif",
+        price: "20",
+        stock: "100 unidades",
+      }
+    ]
   },
   {
     id: 17,
@@ -311,7 +494,65 @@ const products = [
       "Splash Air Body Mist, ideal para mantener tu cuerpo fresco y cómodo.",
     price: "5",
     stock: "23 unidades",
-    colors: ["Gris", "Rosa", "Azul", "Verde", "Amarillo"],
+    colors: ["Negro", "Rosa", "Azul", "Verde", "Amarillo"],
+    variants: [
+      {
+        id: "splash-air-body-megavoltdorado",
+        name: "megavoltdorado",
+        image: "assets/images/productos/hogarybelleza/megavoltdorado.png",
+        price: "5",
+        stock: "5 unidades",
+      },
+      {
+        id: "splash-air-body-xcodesilver",
+        name: "xcodesilver",
+        image: "assets/images/productos/hogarybelleza/xcodesilver.png",
+        price: "5",
+        stock: "5 unidades",
+      },
+      {
+        id: "splash-air-body-championplomo",
+        name: "championplomo",
+        image: "assets/images/productos/hogarybelleza/championplomo.png",
+        price: "5",
+        stock: "5 unidades",
+      },
+      {
+        id: "splash-air-body-vacationplan",
+        name: "vacationplan",
+        image: "assets/images/productos/hogarybelleza/vacationplan.png",
+        price: "5",
+        stock: "5 unidades",
+      },
+      {
+        id: "splash-air-body-mist-championsazul",
+        name: "championsazul",
+        image: "assets/images/productos/hogarybelleza/championsazul.png",
+        price: "5",
+        stock: "5 unidades",
+      },
+      {
+        id: "splash-air-body-mist-steeltroop",
+        name: "steeltroop",
+        image: "assets/images/productos/hogarybelleza/steeltroop.png",
+        price: "5",
+        stock: "5 unidades",
+      },
+      {
+        id: "splash-air-body-mist-megavolt",
+        name: "megavolt",
+        image: "assets/images/productos/hogarybelleza/megavolt.png",
+        price: "5",
+        stock: "5 unidades",
+      },
+      {
+        id: "splash-air-body-mist-manproud",
+        name: "manproud",
+        image: "assets/images/productos/hogarybelleza/manproud.png",
+        price: "5",
+        stock: "5 unidades",
+      }
+    ]
   },
   {
     id: 26,

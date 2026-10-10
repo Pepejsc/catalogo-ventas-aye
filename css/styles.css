@@ -1395,3 +1395,60 @@ footer b {
 .brand-link:hover {
     opacity: 0.9;
 }
+
+/* ========================================
+   MODAL - VARIANTES Y GALERÍA (NUEVO)
+======================================== */
+
+/* Contenedor de las opciones (Ej. 8GB, 16GB) */
+.variant-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+/* Botones de las variantes */
+.variant-option {
+    padding: 8px 18px;
+    border: 2px solid var(--border);
+    border-radius: 10px;
+    background: #fff;
+    color: var(--text-muted);
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.variant-option:hover {
+    border-color: var(--primary-light);
+    color: var(--primary);
+}
+
+/* Estado activo/seleccionado de la variante */
+.variant-option.selected {
+    border-color: var(--primary);
+    background: var(--primary);
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(16, 38, 60, 0.15);
+}
+
+/* ========================================
+   ETIQUETA DE VARIANTES EN LA TARJETA
+======================================== */
+
+.variant-summary {
+    font-size: 11px;
+    font-weight: bold;
+    color: var(--primary);
+    background: #eaf1f7; /* Fondo azul muy suave */
+    border: 1px solid #cce0ef; /* Borde sutil para darle forma */
+    padding: 5px 12px;
+    border-radius: 20px; /* Bordes redondeados tipo píldora */
+    display: inline-block;
+    margin-bottom: 12px;
+    width: fit-content;
+    box-shadow: 0 2px 5px rgba(16, 38, 60, 0.03);
+}
